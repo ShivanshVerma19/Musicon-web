@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        div{
+            float: left;
+        }
+        .r1{
+            width: 100%;
+            background-color: white;
+            color: black;
+        }
+       
+        .pr1{
+            width: 56%;
+            margin-left: 4%;
+            padding: 1%;
+        }
+        .pr2{
+            width: 40%;
+            padding: 1%;
+            text-align: right;
+            padding-right: 80px;
+            position: sticky;
+        }
+    
+        .pr2>i:hover{
+            color: red;
+        }
+        .r2{
+            width: 100%;
+            background-color: #060615;
+            color: white;
+            height: 50px;
+            top: 40px;
+        }
+      
+        .pr3{
+            width: 50%;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 20px;
+        }
+        .pr3:hover{
+            color: red;
+        }
+        .u1 >li{
+            display: inline;
+            padding: 30px;
+            color: black;
+    
+        }
+        .pr4{
+            width: 50%;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    .u2>li{
+        display: inline;
+    }
+    .u2>li:hover{
+        color: red;
+    }
+.t1{
+    border-radius: 20px;
+    height:30px;
+    padding-left:10px;
+}
+.r3{
+    width: 100%;
+    background-image: url(1ervi.jpg);
+    background: fixed;
+    background-size: cover;
+    animation-name: ani1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-family: Brush Script MT;
+    font-size: 50px;
+    height: 400px;
+}
+
+@keyframes ani1{
+
+    0%{background-image: url(1ervi.jpg);}
+    50%{background-image: url(pic1.jpg);}
+    100%{background-image: url(pic2.jpg);}
+}
+
+.r4{
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    margin-top: 400px;
+    height: 600px;
+}
+.pr5{
+    width: 50%;
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.pr6{
+    width: 50%;
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+            .r1{
+                width: 75%;
+            }
+            .r2{
+                width: 75%;
+            }
+            .r3{
+                width: 75% ;
+            }
+             
+        }
+
+
+        @media screen and (max-width: 600px) {
+                .r1{
+                    width: 80%;
+                } 
+                .r2{
+                    width: 80%;
+                }
+                .r3{
+                    width: 80%;
+                }
+
+            } 
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<body>
+    
+    <div class="r1">
+        <div class="pr1">
+            <ul  class="u1">
+                <li>Have any question ?</li>
+                <li><i class="fa fa-mobile"></i> +91 7946138520</li>
+                <li><i class="fa fa-envelope-square"></i>Musicon@mail.com  </li>
+            </ul>
+        </div>
+    
+        <div class="pr2"><i class="fa fa-facebook"></i>&nbsp;&nbsp;<i class="fa fa-twitter"></i>&nbsp;&nbsp;<i class="fa fa-instagram"></i><i class="linkdin"></i></div>
+    </div>
+    </div>
+
+    <div class="r2">
+        <div class="pr3"><i class="fa fa-music" style="color: red;"></i> Musicon</div>
+        
+        <div class="pr4">
+            <ul class="u2">
+                <li>Home</li>&nbsp;&nbsp;&nbsp;
+                <li>About Us</li>&nbsp;&nbsp;&nbsp;
+                <li>Class</li>&nbsp;&nbsp;&nbsp;
+                <li>Blog<i class="fa fa-angle-down"></i></li>&nbsp;&nbsp;&nbsp;
+                <li>Pages<i class="fa fa-angle-down"></i></li>&nbsp;&nbsp;&nbsp;
+                <li>Contact</li>
+                <li><input type="text" placeholder="Enter Keywords" class="t1" />&nbsp;<i class="fa fa-search" style="color:red"></i>&nbsp;&nbsp;<i class="fa fa-moon-o"></i></li>
+            </div>
+
+            <div class="r3">Music Beats<br><h1>Music for Everyone</h1></div>
+        </div>
+
+        <div class="r4">
+            <div class="pr5"><h1> Welcome to Musicon</h1><br>
+            <p>At corrupti odit At iure facere, porro repellat officia quas, dolores magnam assumenda soluta odit harum maiores fugiat accusamus eos nulla. Iure voluptatibus explicabo officia.<br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, corrupti odit? At iure facere, porro repellat officia quas, dolores magnam assumenda soluta odit harum.</p></div>
+            <div class="pr6"><img src="about.jpg" alt=""></div>
+        </div>
+</body>
+</html>
